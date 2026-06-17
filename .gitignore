@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# ChromaDB (if using local)
+chroma_db/
+.chroma/
+
+# LangSmith (local config)
+.langsmith/
+
+# Logs
+*.log
+
+# Other
+.qodo/
