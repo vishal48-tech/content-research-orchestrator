@@ -6,6 +6,12 @@ from src.tools.jina import extract
 from src.utils.scoring import score_source
 from src.nodes.coordinator import coordinator_node
 import time
+import os
+
+LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY", "")
+LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT", "content_research_orchestor")
+LANGSMITH_TRACING = os.getenv("LANGSMITH_TRACING", "false").lower() == "true"
+LANGSMITH_ENDPOINT = os.getenv("LANGSMITH_ENDPOINT", "https://api.smith.langchain.com")
 
 st.title("🔍 Content Research Agent")
 
