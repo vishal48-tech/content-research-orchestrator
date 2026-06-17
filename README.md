@@ -15,15 +15,16 @@ Multi-agent content research system using LangGraph, Groq API, and Streamlit.
 ## Architecture
 ```mermaid
 flowchart TD
-    A [User Query] --> B [Coordinator]
-    B --> C [Plan angles]
-    C --> D [Search]
-    D --> E [Find sources]
-    E --> F [Synthesis]
-    F --> G [Outline]
-    G --> H [Evaluation]
-    H --> I [Score & recommend]
-    I --> J [Output]
+    flowchart TD
+    A[User Query] --> B[Coordinator]
+    B --> C[Plan angles]
+    C --> D[Search]
+    D --> E[Find sources]
+    E --> F[Synthesis]
+    F --> G[Outline]
+    G --> H[Evaluation]
+    H --> I[Score & recommend]
+    I --> J[Output]
 ```
 
 
